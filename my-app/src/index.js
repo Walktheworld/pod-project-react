@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Fetch from './fetch.js'
+
 
 
 ReactDOM.render(
 
   <React.StrictMode>
-    <Fetch/>
+    
     <App />
   </React.StrictMode>,
   document.getElementById('root')
