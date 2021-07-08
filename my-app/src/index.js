@@ -3,15 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Fetch from './fetch.js'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 
 ReactDOM.render(
 
-  <React.StrictMode>
-    <Fetch/>
-    <App />
-  </React.StrictMode>,
+ 
+    <Router>
+      <App />
+    </Router>
+  ,
   document.getElementById('root')
 );
 
