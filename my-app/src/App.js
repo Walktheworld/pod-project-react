@@ -4,6 +4,11 @@ import ArtistContainer from './ArtistContainer'
 import ArtistPage from './ArtistPage'
 
 class App extends React.Component {
+    constructor(){
+        super()
+        this.state = {music: []}
+    }   
+    
 
 
 
